@@ -8,7 +8,7 @@ This repository contains the installable Android TV APK and its release notes. I
 
 - **Version / الإصدار:** 1.0.0
 - **Android package / معرّف الحزمة:** `com.r1tec.launcher`
-- **APK:** [R1tec-Launcher-1.0.0.apk](R1tec-Launcher-1.0.0.apk)
+- **APK:** [R1tec Launcher.apk](R1tec Launcher.apk)
 - **SHA-256:** `F1CC39CDAE7BED91ADD4880ED09CB675A23EFEF0B89EFC08C78AC0203898AA20`
 
 ## Features / المميزات
