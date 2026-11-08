@@ -89,13 +89,3 @@ The APK requests network access for online widgets; location for location-based 
 The presence of this list is not a malware certification. Play Protect makes its own device- and reputation-based decision. Report a suspected false positive to Google through its official Play Protect review process.
 
 ذكر الأذونات هنا لا يشكل شهادة خلو من البرمجيات الضارة. يتخذ Play Protect قراره بناء على الجهاز وسمعة التطبيق؛ ويمكن الإبلاغ عن الاشتباه في إنذار خاطئ إلى Google عبر قنوات مراجعة Play Protect الرسمية.
-
-## Checksums / التحقق من الملف
-
-Verify the downloaded APK with PowerShell:
-
-```powershell
-Get-FileHash .\R1tec-Launcher-1.0.0.apk -Algorithm SHA256
-```
-
-SHA-256 المتوقع: `F1CC39CDAE7BED91ADD4880ED09CB675A23EFEF0B89EFC08C78AC0203898AA20`.
