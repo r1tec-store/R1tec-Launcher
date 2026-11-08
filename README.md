@@ -4,6 +4,16 @@
 
 This repository contains the installable Android TV APK and its release notes. It does not include the launcher source code.
 
+## Screenshots / لقطات شاشة
+<img width="1920" height="1080" alt="Screenshot_20261108153504" src="https://github.com/user-attachments/assets/e8097fd4-2ea7-41f6-83dc-2f130bf82a56" />
+<img width="1920" height="1080" alt="Screenshot_20261108153546" src="https://github.com/user-attachments/assets/60ea7269-6458-4189-b5a0-d3fff6a4f07d" />
+<img width="1920" height="1080" alt="Screenshot_20261108153607" src="https://github.com/user-attachments/assets/00c50f55-cfe3-4a9c-83b2-23787e19eebb" />
+<img width="1920" height="1080" alt="Screenshot_20261108153636" src="https://github.com/user-attachments/assets/4f581de4-f0db-4209-b3ed-6a948012ef09" />
+<img width="1920" height="1080" alt="Screenshot_20261108153648" src="https://github.com/user-attachments/assets/e9c21a61-5dc7-4e20-8ec9-c7363b136b02" />
+<img width="1920" height="1080" alt="Screenshot_20261108153659" src="https://github.com/user-attachments/assets/ad82387c-323e-49b8-8ef2-0c1e0b2435aa" />
+<img width="1920" height="1080" alt="Screenshot_20261108153621" src="https://github.com/user-attachments/assets/768233c8-446e-4946-bf18-21bb65dbea24" />
+<img width="1920" height="1080" alt="Screenshot_20261108153532" src="https://github.com/user-attachments/assets/fdca1b12-fde6-4ab1-86ce-58289631a7d4" />
+
 
 ## Features / المميزات
 
