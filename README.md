@@ -19,8 +19,8 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 
 ### Download and install
 
-1. Download `R1tec-Launcher-1.1.0.apk` from the [latest release](../../releases/latest).
-2. Install it on the TV, for example with a file manager, *Downloader*, or `adb install R1tec-Launcher-1.1.0.apk`.
+1. Download `R1tec-Launcher-1.1.1.apk` from the [latest release](../../releases/latest).
+2. Install it on the TV, for example with a file manager, *Downloader*, or `adb install R1tec-Launcher-1.1.1.apk`.
 3. Open R1tec Launcher. On first launch it asks to become the default Home app; confirm once.
    Installing from a PC? `install-on-tv.bat <TV_IP>` installs the app and sets it as Home automatically.
 
@@ -70,7 +70,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - **Appearance:** wallpaper (animated sky or photos), container opacity, corner radius, reset.
 - **Language and time:** Arabic or English, 12/24-hour clock.
 - **Applications:** organize favorites, rename, hide or restore apps, uninstall.
-- **Remote and Home:** Home-button shortcut through accessibility.
+- **Remote and Home:** set R1tec as the default Home app. (The accessibility-based Home-button shortcut is turned off from 1.1.1 so Google Play Protect no longer blocks installation.)
 - **Widgets:** show or hide the weather, prayer and matches widgets, each with its own settings.
 - **Screensaver** (Android "Daydream") with the animated sky.
 - **Backup:** export and import all launcher and widget settings.
@@ -111,8 +111,8 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 
 ### التحميل والتثبيت
 
-1. حمّل الملف `R1tec-Launcher-1.1.0.apk` من [آخر إصدار](../../releases/latest).
-2. ثبّته على التلفاز، مثلاً عبر مدير الملفات أو تطبيق *Downloader*، أو بالأمر `adb install R1tec-Launcher-1.1.0.apk`.
+1. حمّل الملف `R1tec-Launcher-1.1.1.apk` من [آخر إصدار](../../releases/latest).
+2. ثبّته على التلفاز، مثلاً عبر مدير الملفات أو تطبيق *Downloader*، أو بالأمر `adb install R1tec-Launcher-1.1.1.apk`.
 3. افتح R1tec Launcher. عند أول تشغيل يطلب أن يصبح الشاشة الرئيسية الافتراضية، فوافق مرة واحدة.
    للتثبيت من الحاسوب: الأمر `install-on-tv.bat <IP_التلفاز>` يثبّت التطبيق ويجعله الشاشة الرئيسية تلقائياً.
 
@@ -150,7 +150,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - **المظهر:** الخلفية (سماء متحركة أو صور)، وشفافية الحاويات، وانحناء الزوايا، وإعادة الضبط.
 - **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة.
 - **التطبيقات:** ترتيب المفضلة، وإعادة التسمية، وإخفاء التطبيقات أو استرجاعها، والحذف.
-- **الريموت وHome:** اختصار زر Home عبر إمكانية الوصول.
+- **الريموت وHome:** جعل R1tec الشاشة الرئيسية الافتراضية. (اختصار زر Home عبر إمكانية الوصول معطّل منذ الإصدار 1.1.1 حتى لا يمنع Google Play Protect التثبيت.)
 - **الويدجات:** إظهار أو إخفاء ويدجت الطقس والصلاة والمباريات، ولكل منها إعداداته.
 - **شاشة التوقف** (Daydream) بالسماء المتحركة.
 - **النسخ الاحتياطي:** تصدير واستيراد كل إعدادات اللانشر والويدجات.

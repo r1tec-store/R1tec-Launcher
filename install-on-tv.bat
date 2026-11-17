@@ -8,7 +8,7 @@ rem adb: use %ADB% if set, else a local platform-tools copy, else adb from PATH
 if not defined ADB if exist "%USERPROFILE%\Documents\codex\R1TEC LAUNCHER\.codex\platform-tools\adb.exe" set "ADB=%USERPROFILE%\Documents\codex\R1TEC LAUNCHER\.codex\platform-tools\adb.exe"
 if not defined ADB set "ADB=adb"
 rem Put the APK from the GitHub release next to this script
-set "APK=%~dp0R1tec-Launcher-1.1.0.apk"
+set "APK=%~dp0R1tec-Launcher-1.1.1.apk"
 
 "%ADB%" connect %TV%:5555
 "%ADB%" -s %TV%:5555 install -r "%APK%" || goto :fail
