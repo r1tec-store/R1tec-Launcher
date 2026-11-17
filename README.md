@@ -1,101 +1,176 @@
+<div align="center">
+
 # R1tec Launcher
 
-**واجهة التلفاز للتطبيقات والطقس وأوقات الصلاة ومباريات اليوم.**
+**A home screen for Android TV with prayer times, weather and today's football matches.**
+**واجهة رئيسية لأجهزة Android TV مع أوقات الصلاة والطقس ومباريات اليوم.**
 
-This repository contains the installable Android TV APK and its release notes. It does not include the launcher source code.
+[English](#english) · [العربية](#العربية) · [Download / تحميل](../../releases/latest)
 
-## Screenshots / لقطات شاشة
-<img width="300" height="169" alt="Screenshot_20261108153504" src="https://github.com/user-attachments/assets/e8097fd4-2ea7-41f6-83dc-2f130bf82a56" />
-<img width="300" height="169" alt="Screenshot_20261108153546" src="https://github.com/user-attachments/assets/60ea7269-6458-4189-b5a0-d3fff6a4f07d" />
-<img width="300" height="169" alt="Screenshot_20261108153607" src="https://github.com/user-attachments/assets/00c50f55-cfe3-4a9c-83b2-23787e19eebb" />
-<img width="300" height="169" alt="Screenshot_20261108153636" src="https://github.com/user-attachments/assets/4f581de4-f0db-4209-b3ed-6a948012ef09" />
-<img width="300" height="169" alt="Screenshot_20261108153648" src="https://github.com/user-attachments/assets/e9c21a61-5dc7-4e20-8ec9-c7363b136b02" />
-<img width="300" height="169" alt="Screenshot_20261108153659" src="https://github.com/user-attachments/assets/ad82387c-323e-49b8-8ef2-0c1e0b2435aa" />
-<img width="300" height="169" alt="Screenshot_20261108153621" src="https://github.com/user-attachments/assets/768233c8-446e-4946-bf18-21bb65dbea24" />
-<img width="300" height="169" alt="Screenshot_20261108153532" src="https://github.com/user-attachments/assets/fdca1b12-fde6-4ab1-86ce-58289631a7d4" />
+![Home screen](docs/screenshots/01-home.jpg)
 
+</div>
 
-## Features / المميزات
+---
 
-### Home screen and apps / الشاشة الرئيسية والتطبيقات
+## English
 
-- Android TV home-screen launcher with remote-control / D-pad navigation.
-- A favorites dock with six slots by default and a supported range of five to six apps.
-- Move apps between favorites and the regular app grid, and reorder apps from the home screen.
-- Hide apps and restore them from launcher settings; open Android's device app-management screen.
-- Long-press app actions, including app details, hide, and uninstall where Android permits it.
-- Focus styling for both favorites and regular apps, designed for TV viewing.
-- First focus returns to the first favorite app when the launcher opens.
+R1tec Launcher replaces the default Android TV home screen with a clean, remote-friendly interface. Everything you need is on one screen: the time and the Hijri and Gregorian dates, prayer times, the weather, today's matches for your teams, and your apps.
 
-### Widgets / الويدجت
+### Download and install
 
-- Separate weather and prayer-time widgets, each with its own settings and visibility control.
-- Today's matches widget with its own settings and visibility control.
-- Weather location selection, current conditions, and forecast when the weather provider has data.
-- Prayer schedule and configurable prayer alerts.
-- Follow selected clubs and competitions, with match alerts and favorite-team options.
-- League and cup competition selection, including domestic and international competitions. Club and competition names are shown in Latin characters.
-- Widget refreshes use scheduled/background refresh and cached results when a network request cannot complete; the system clock and device timezone remain controlled by Android.
-- Match and prayer times follow the device timezone and the launcher's selected 12/24-hour display format.
+1. Download `R1tec-Launcher-1.1.0.apk` from the [latest release](../../releases/latest).
+2. Install it on the TV, for example with a file manager, *Downloader*, or `adb install R1tec-Launcher-1.1.0.apk`.
+3. Open R1tec Launcher. On first launch it asks to become the default Home app; confirm once.
+   Installing from a PC? `install-on-tv.bat <TV_IP>` installs the app and sets it as Home automatically.
 
-### Settings and personalization / الإعدادات والتخصيص
+**Requirements:** Android TV / Google TV, Android 8.0 (API 26) or newer.
 
-- Arabic and English interface.
-- Launcher appearance, wallpaper, and widget settings.
-- Language and time settings, with 24-hour format as the default and an optional 12-hour format.
-- Quick settings for launcher preferences, including optional settings import/export.
-- Export and import launcher and widget preferences using `.r1backup` files through Android's file picker.
-- About page with app version and description.
+### Features
 
-## الوصف العربي
+#### Home screen
+- Large clock with the weekday and both the **Hijri and Gregorian** dates.
+- **Animated living sky** (sun, moon, stars and drifting clouds that follow the time of day), or a choice of photo wallpapers, including your own image from USB or a file.
+- **Favorites row** for your most-used apps, plus a full **Applications** grid.
+- Top bar with quick actions: settings, Wi-Fi, input source and app update.
+- Fully navigable with the TV remote, with **Arabic (RTL) and English** interfaces.
 
-**R1tec Launcher** واجهة رئيسية مخصصة لأجهزة Android TV، تتيح الوصول إلى التطبيقات ومتابعة الطقس وأوقات الصلاة ومباريات كرة القدم باستخدام جهاز التحكم.
+![Apps](docs/screenshots/02-apps.jpg)
 
-### الشاشة الرئيسية والتطبيقات
+#### Today's matches widget
+- Live list of today's football matches from **365Scores**: score, minute, half, round and competition.
+- Follow **teams**, from clubs in 40+ leagues to **all national teams** (216 teams, including Morocco, Algeria, Saudi Arabia, Egypt, France and Brazil).
+- Follow **competitions**: Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Champions League, Botola Pro, AFCON, World Cup, qualifiers and friendlies.
+- Filter by *selected teams only* and/or *selected competitions only*. Out of the box it ships with 67 popular teams selected and the "selected teams only" filter on.
+- **Match details:** date and time, round, stadium and referee.
+- **Match alerts** on the TV: goals, score corrections and VAR, kick-off and half-time, cards, penalties and substitutions, with a choice of alert sound and volume and a *favorites only* option.
 
-- تنقل ملائم للتلفاز باستخدام أزرار الاتجاهات وزر OK.
-- شريط مفضلة يحتوي افتراضيا على 6 تطبيقات، مع دعم من 5 إلى 6 تطبيقات.
-- نقل التطبيقات بين المفضلة والتطبيقات العادية وإعادة ترتيبها من الشاشة الرئيسية.
-- إخفاء التطبيقات واستعادتها من الإعدادات، مع إمكانية فتح إدارة تطبيقات الجهاز.
-- قائمة إجراءات بالضغط المطول، تشمل تفاصيل التطبيق وإخفاءه وإلغاء تثبيته عندما يسمح Android بذلك.
-- تمييز واضح للتطبيق المحدد في المفضلة وفي شبكة التطبيقات.
-- يبدأ التركيز عند فتح اللانشر على أول تطبيق في المفضلة.
+| Match details | Teams by competition (National Teams) |
+|---|---|
+| ![Match details](docs/screenshots/11-match-details.jpg) | ![Teams picker](docs/screenshots/10-teams-picker.jpg) |
 
-### الويدجت
+| Teams | Competitions | Alerts |
+|---|---|---|
+| ![Teams](docs/screenshots/09-matches-teams.jpg) | ![Competitions](docs/screenshots/12-matches-competitions.jpg) | ![Alerts](docs/screenshots/13-matches-alerts.jpg) |
 
-- ويدجت الطقس وويدجت أوقات الصلاة منفصلان، ولكل منهما إعدادات وخيار إظهار وإخفاء.
-- ويدجت مستقل لمباريات اليوم مع إعداداته وخيار إظهار وإخفاء.
-- اختيار مدينة الطقس وعرض الحالة الحالية والتوقعات عند توفر بيانات الخدمة.
-- جدول أوقات الصلاة وإعداد التنبيهات.
-- متابعة الأندية والبطولات، مع خيارات تنبيهات المباريات والفرق المفضلة.
-- اختيار الدوريات والكؤوس المحلية والدولية، وعرض أسماء الأندية والبطولات بالأحرف اللاتينية.
-- تحديثات دورية للويدجت في الخلفية، مع الاستفادة من البيانات المخزنة مؤقتا عند تعذر الاتصال بالإنترنت.
-- توقيت الصلاة والمباريات يتبع المنطقة الزمنية للجهاز وتنسيق الساعة المختار 12 أو 24 ساعة. ساعة النظام والمنطقة الزمنية يتحكم بهما Android.
+#### Prayer times
+- Five daily prayers plus sunrise, with the next prayer highlighted.
+- Calculation methods per country, including Morocco, Saudi Arabia, Algeria, Tunisia, Egypt, Jordan, Kuwait, Palestine and more.
+- **Adhan** with several reciters or your own audio file, adjustable volume, and reminders before each prayer.
+- City search, or location by GPS or network.
 
-### الإعدادات والنسخ الاحتياطي
+![Prayer times](docs/screenshots/03-prayer-times.jpg)
 
-- واجهة باللغتين العربية والإنجليزية.
-- تخصيص مظهر اللانشر والخلفية والويدجت.
-- اختيار تنسيق 24 ساعة افتراضيا أو 12 ساعة.
-- استيراد وتصدير إعدادات اللانشر والويدجت عبر ملفات `.r1backup` باستخدام منتقي ملفات Android.
-- صفحة «حول التطبيق» تعرض الإصدار والوصف.
+#### Weather
+- Current conditions, temperature, feels-like, humidity and wind (Open-Meteo).
+- Automatic location or city search.
 
-## Installation / التثبيت
+#### Settings
+- **General:** default Home screen, home setup guide, quick settings, screensaver, import/export of settings.
+- **Appearance:** wallpaper (animated sky or photos), container opacity, corner radius, reset.
+- **Language and time:** Arabic or English, 12/24-hour clock.
+- **Applications:** organize favorites, rename, hide or restore apps, uninstall.
+- **Remote and Home:** Home-button shortcut through accessibility.
+- **Widgets:** show or hide the weather, prayer and matches widgets, each with its own settings.
+- **Screensaver** (Android "Daydream") with the animated sky.
+- **Backup:** export and import all launcher and widget settings.
 
-Download the APK to the Android TV device and install it using the device's package installer. Android or Google Play Protect may show a warning for apps installed outside Google Play. Review the app and its requested permissions on the device; do not disable Play Protect to install it.
+| Quick menu | General | Widgets |
+|---|---|---|
+| ![Quick menu](docs/screenshots/04-quick-menu.jpg) | ![General](docs/screenshots/05-settings-general.jpg) | ![Widgets](docs/screenshots/08-settings-widgets.jpg) |
 
-نزّل ملف APK إلى جهاز Android TV وثبّته باستخدام مثبت الحزم في الجهاز. قد يعرض Android أو Google Play Protect تحذيرا عند تثبيت تطبيق من خارج Google Play. راجع التطبيق والأذونات التي يطلبها على الجهاز، ولا توقف Play Protect بغرض التثبيت.
+| Appearance | Applications | About |
+|---|---|---|
+| ![Appearance](docs/screenshots/06-settings-appearance.jpg) | ![Applications](docs/screenshots/07-settings-apps.jpg) | ![About](docs/screenshots/14-about.jpg) |
 
-Some launcher functions depend on Android version, device firmware, internet access, location permission (for location-based weather), notification/alarms settings, and the availability of sports/weather data providers.
+### Permissions
 
-قد تعتمد بعض الوظائف على إصدار Android وبرنامج الجهاز والاتصال بالإنترنت وإذن الموقع للطقس المحلي وإعدادات الإشعارات والتنبيهات وتوفر مزودي بيانات الطقس والرياضة.
+| Permission | Why |
+|---|---|
+| Internet, network and Wi-Fi state | Matches, weather and prayer data; the Wi-Fi menu |
+| Location (coarse and fine) | Automatic city for prayer times and weather (optional) |
+| Notifications and foreground service (media playback) | Match alerts and adhan playback |
+| Exact alarms, boot completed and wake lock | Prayer reminders that fire on time, even after a restart |
+| Request delete packages | Uninstall apps from the launcher |
 
-## Permissions and security notes / الأذونات والأمان
+### Data sources
+- Matches: [365Scores](https://www.365scores.com) (unofficial web API, see [docs/365scores-api.md](docs/365scores-api.md))
+- Weather: [Open-Meteo](https://open-meteo.com)
+- Prayer calendar: [Aladhan](https://aladhan.com) and on-device calculation
+- Wallpapers: Unsplash (NEOM, Hala AlGhanim)
 
-The APK requests network access for online widgets; location for location-based weather; notifications, boot handling, foreground playback, wake lock, and exact-alarm access for configured prayer/match alerts; storage access on older Android versions for wallpaper importing; package-delete requests for the user-invoked uninstall action; and an optional Accessibility service for the Home-key remote feature. The Accessibility service is configured not to retrieve window content and handles only the Home key when enabled by the user.
+R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 
-يطلب التطبيق أذونات الشبكة للويدجت المتصلة بالإنترنت، والموقع للطقس حسب الموقع، والإشعارات والتنبيهات اللازمة لتنبيهات الصلاة والمباريات عند تفعيلها، وبعض الأذونات التشغيلية التي يديرها Android. كما تتوفر خدمة إمكانية وصول اختيارية لوظيفة زر Home، وهي لا تقرأ محتوى النوافذ وتتعامل مع زر Home فقط عند تفعيلها من المستخدم. قد تتطلب بعض الوظائف أذونات إضافية بحسب إصدار Android وإعدادات المستخدم.
+---
 
-The presence of this list is not a malware certification. Play Protect makes its own device- and reputation-based decision. Report a suspected false positive to Google through its official Play Protect review process.
+## العربية
 
-ذكر الأذونات هنا لا يشكل شهادة خلو من البرمجيات الضارة. يتخذ Play Protect قراره بناء على الجهاز وسمعة التطبيق؛ ويمكن الإبلاغ عن الاشتباه في إنذار خاطئ إلى Google عبر قنوات مراجعة Play Protect الرسمية.
+<div dir="rtl">
+
+يستبدل R1tec Launcher الواجهة الرئيسية الافتراضية في Android TV بواجهة أنيقة سهلة الاستعمال بالريموت. كل ما تحتاجه في شاشة واحدة: الساعة والتاريخ الهجري والميلادي، وأوقات الصلاة، والطقس، ومباريات اليوم لفرقك، وتطبيقاتك.
+
+### التحميل والتثبيت
+
+1. حمّل الملف `R1tec-Launcher-1.1.0.apk` من [آخر إصدار](../../releases/latest).
+2. ثبّته على التلفاز، مثلاً عبر مدير الملفات أو تطبيق *Downloader*، أو بالأمر `adb install R1tec-Launcher-1.1.0.apk`.
+3. افتح R1tec Launcher. عند أول تشغيل يطلب أن يصبح الشاشة الرئيسية الافتراضية، فوافق مرة واحدة.
+   للتثبيت من الحاسوب: الأمر `install-on-tv.bat <IP_التلفاز>` يثبّت التطبيق ويجعله الشاشة الرئيسية تلقائياً.
+
+**المتطلبات:** Android TV أو Google TV، بنظام Android 8.0 (API 26) أو أحدث.
+
+### المميزات
+
+#### الشاشة الرئيسية
+- ساعة كبيرة مع اليوم والتاريخ **الهجري والميلادي**.
+- **سماء حيّة متحركة** (شمس وقمر ونجوم وسحب تتغير حسب الوقت)، أو صور خلفية جاهزة، أو صورتك الخاصة من USB أو من ملف.
+- **صف المفضلة** لأكثر التطبيقات استعمالاً، وشبكة **كل التطبيقات**.
+- شريط علوي للوصول السريع: الإعدادات، والواي فاي، ومصدر الإدخال، وتحديث التطبيق.
+- تنقل كامل بالريموت، وواجهة **بالعربية (من اليمين لليسار) وبالإنجليزية**.
+
+#### ويدجت مباريات اليوم
+- قائمة حيّة بمباريات اليوم من **365Scores**: النتيجة، والدقيقة، والشوط، والجولة، والبطولة.
+- متابعة **الفرق**: أندية من أكثر من 40 دوري، و**كل المنتخبات الوطنية** (216 منتخباً، منها المغرب والجزائر والسعودية ومصر وفرنسا والبرازيل).
+- متابعة **البطولات**: الدوري الإنجليزي والإسباني والإيطالي والألماني والفرنسي، ودوري الأبطال، والبطولة الاحترافية المغربية، وكأس أمم إفريقيا، وكأس العالم، والتصفيات، والمباريات الودية.
+- فلترة بـ*الفرق المحددة فقط* و/أو *البطولات المحددة فقط*. يأتي افتراضياً مع 67 فريقاً مختاراً، وفلتر "الفرق المحددة فقط" مفعّل.
+- **تفاصيل المباراة:** الموعد، والجولة، والملعب، والحكم.
+- **تنبيهات المباريات** على التلفاز: الأهداف، وتصحيح النتيجة والـVAR، وبداية المباراة ونهاية الأشواط، والبطاقات، وضربات الجزاء، والتبديلات، مع اختيار صوت التنبيه ومستواه، وخيار *المفضلة فقط*.
+
+#### أوقات الصلاة
+- الصلوات الخمس والشروق، مع إبراز الصلاة القادمة.
+- طرق حساب حسب البلد، منها المغرب والسعودية والجزائر وتونس ومصر والأردن والكويت وفلسطين وغيرها.
+- **الأذان** بعدة أصوات أو بملف صوتي خاص، مع التحكم في مستوى الصوت، وتذكير قبل كل صلاة.
+- البحث عن المدينة، أو تحديد الموقع عبر GPS أو الشبكة.
+
+#### الطقس
+- الحالة الحالية، ودرجة الحرارة، والإحساس الحراري، والرطوبة، والرياح (من Open-Meteo).
+- تحديد الموقع تلقائياً أو بالبحث عن المدينة.
+
+#### الإعدادات
+- **عام:** الشاشة الرئيسية الافتراضية، ودليل الإعداد، والإعدادات السريعة، وشاشة التوقف، واستيراد وتصدير الإعدادات.
+- **المظهر:** الخلفية (سماء متحركة أو صور)، وشفافية الحاويات، وانحناء الزوايا، وإعادة الضبط.
+- **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة.
+- **التطبيقات:** ترتيب المفضلة، وإعادة التسمية، وإخفاء التطبيقات أو استرجاعها، والحذف.
+- **الريموت وHome:** اختصار زر Home عبر إمكانية الوصول.
+- **الويدجات:** إظهار أو إخفاء ويدجت الطقس والصلاة والمباريات، ولكل منها إعداداته.
+- **شاشة التوقف** (Daydream) بالسماء المتحركة.
+- **النسخ الاحتياطي:** تصدير واستيراد كل إعدادات اللانشر والويدجات.
+
+### الأذونات
+
+| الإذن | السبب |
+|---|---|
+| الإنترنت وحالة الشبكة والواي فاي | بيانات المباريات والطقس والصلاة، وقائمة الواي فاي |
+| الموقع | تحديد المدينة تلقائياً للصلاة والطقس (اختياري) |
+| الإشعارات والخدمة الأمامية (تشغيل الوسائط) | تنبيهات المباريات وتشغيل الأذان |
+| المنبهات الدقيقة، والتشغيل عند الإقلاع، ومنع السكون | تذكير الصلاة في وقته حتى بعد إعادة التشغيل |
+| طلب حذف التطبيقات | حذف التطبيقات من داخل اللانشر |
+
+### مصادر البيانات
+- المباريات: [365Scores](https://www.365scores.com) (واجهة ويب غير رسمية، انظر [docs/365scores-api.md](docs/365scores-api.md))
+- الطقس: [Open-Meteo](https://open-meteo.com)
+- أوقات الصلاة: [Aladhan](https://aladhan.com) والحساب على الجهاز
+- الخلفيات: Unsplash (NEOM، هلا الغانم)
+
+لا يرتبط R1tec Launcher بأي من 365Scores أو Open-Meteo أو Aladhan.
+
+</div>

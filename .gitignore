@@ -1,0 +1,12 @@
+# Signing key - never publish
+signing/
+*.jks
+*.keystore
+keystore.properties
+
+# Build outputs (APKs are attached to GitHub Releases instead)
+*.apk
+*.idsig
+
+# Local tooling
+.claude/
