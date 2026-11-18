@@ -7,8 +7,8 @@ if "%TV%"=="" set "TV=192.168.0.143"
 rem adb: use %ADB% if set, else a local platform-tools copy, else adb from PATH
 if not defined ADB if exist "%USERPROFILE%\Documents\codex\R1TEC LAUNCHER\.codex\platform-tools\adb.exe" set "ADB=%USERPROFILE%\Documents\codex\R1TEC LAUNCHER\.codex\platform-tools\adb.exe"
 if not defined ADB set "ADB=adb"
-rem Put the APK from the GitHub release next to this script
-set "APK=%~dp0R1tec-Launcher-1.1.1.apk"
+rem Put R1tec-Launcher.apk (latest: https://github.com/r1tec-store/R1tec-Launcher/releases/latest/download/R1tec-Launcher.apk) next to this script
+set "APK=%~dp0R1tec-Launcher.apk"
 
 "%ADB%" connect %TV%:5555
 "%ADB%" -s %TV%:5555 install -r "%APK%" || goto :fail
