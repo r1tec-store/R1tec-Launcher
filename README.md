@@ -39,6 +39,8 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - Large clock with the weekday and both the **Hijri and Gregorian** dates.
 - **Animated living sky** (sun, moon, stars and drifting clouds that follow the time of day), or a choice of photo wallpapers, including your own image from USB or a file.
 - **Favorites row** for your most-used apps, plus a full **Applications** grid.
+- **Move apps between Favorites and Applications:** hold OK on an app → *Move app*, then **Up/Down** carries it between the two rows and the arrows place it; OK saves.
+- Focused apps get a **gold ring** and zoom in, in both rows.
 - Top bar with quick actions: settings, Wi-Fi, input source and app update.
 - Fully navigable with the TV remote, with **Arabic (RTL) and English** interfaces.
 
@@ -64,13 +66,18 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - Five daily prayers plus sunrise, with the next prayer highlighted.
 - Calculation methods per country, including Morocco, Saudi Arabia, Algeria, Tunisia, Egypt, Jordan, Kuwait, Palestine and more.
 - **Adhan** with several reciters or your own audio file, adjustable volume, and reminders before each prayer.
-- City search, or location by GPS or network.
+- City search, or location by GPS or network. Selecting the widget before a city is set opens the city picker.
 
 ![Prayer times](docs/screenshots/03-prayer-times.jpg)
 
 #### Weather
 - Current conditions, temperature, feels-like, humidity and wind (Open-Meteo).
-- Automatic location or city search.
+- Automatic location or city search. Selecting the widget before a city is set opens the city picker.
+
+#### Updates
+- **About → Check for updates** reads the latest release on this GitHub repository, shows its notes, then downloads and installs it.
+- The home screen also checks in the background (at most once an hour) and announces a new version as soon as it is published.
+- Downloads are HTTPS-only from GitHub, and the APK must be R1tec Launcher, newer than the installed version and **signed with the same key** before it is installed. Android asks once to allow R1tec to install updates.
 
 #### Settings
 - **General:** default Home screen, home setup guide, quick settings, screensaver, import/export of settings.
@@ -78,7 +85,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - **Language and time:** Arabic or English, 12/24-hour clock.
 - **Applications:** organize favorites, rename, hide or restore apps, uninstall.
 - **Remote and Home:** set R1tec as the default Home app. (The accessibility-based Home-button shortcut is turned off so Google Play Protect no longer blocks installation.)
-- **Widgets:** show or hide the weather, prayer and matches widgets, each with its own settings.
+- **Widgets:** one-click On/Off switch for each widget (weather, prayer, matches) independently, plus each widget's own settings.
 - **Screensaver** (Android "Daydream") with the animated sky.
 - **Backup:** export and import all launcher and widget settings.
 
@@ -99,6 +106,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 | Notifications and foreground service (media playback) | Match alerts and adhan playback |
 | Exact alarms, boot completed and wake lock | Prayer reminders that fire on time, even after a restart |
 | Request delete packages | Uninstall apps from the launcher |
+| Request install packages | Install updates downloaded from GitHub (you confirm each install) |
 
 ### Data sources
 - Matches: [365Scores](https://www.365scores.com) (unofficial web API, see [docs/365scores-api.md](docs/365scores-api.md))
@@ -131,6 +139,8 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - ساعة كبيرة مع اليوم والتاريخ **الهجري والميلادي**.
 - **سماء حيّة متحركة** (شمس وقمر ونجوم وسحب تتغير حسب الوقت)، أو صور خلفية جاهزة، أو صورتك الخاصة من USB أو من ملف.
 - **صف المفضلة** لأكثر التطبيقات استعمالاً، وشبكة **كل التطبيقات**.
+- **نقل التطبيقات بين المفضلة والتطبيقات:** اضغط مطولاً على OK فوق تطبيق ← *نقل التطبيق*، ثم **أعلى/أسفل** للانتقال بين الصفين والأسهم لتحديد المكان، وOK للحفظ.
+- التطبيق المحدد يظهر بـ**إطار ذهبي** ويتكبّر، في الصفين معاً.
 - شريط علوي للوصول السريع: الإعدادات، والواي فاي، ومصدر الإدخال، وتحديث التطبيق.
 - تنقل كامل بالريموت، وواجهة **بالعربية (من اليمين لليسار) وبالإنجليزية**.
 
@@ -146,11 +156,16 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - الصلوات الخمس والشروق، مع إبراز الصلاة القادمة.
 - طرق حساب حسب البلد، منها المغرب والسعودية والجزائر وتونس ومصر والأردن والكويت وفلسطين وغيرها.
 - **الأذان** بعدة أصوات أو بملف صوتي خاص، مع التحكم في مستوى الصوت، وتذكير قبل كل صلاة.
-- البحث عن المدينة، أو تحديد الموقع عبر GPS أو الشبكة.
+- البحث عن المدينة، أو تحديد الموقع عبر GPS أو الشبكة. الضغط على الويدجت قبل تحديد المدينة يفتح إعداد المدينة مباشرة.
 
 #### الطقس
 - الحالة الحالية، ودرجة الحرارة، والإحساس الحراري، والرطوبة، والرياح (من Open-Meteo).
-- تحديد الموقع تلقائياً أو بالبحث عن المدينة.
+- تحديد الموقع تلقائياً أو بالبحث عن المدينة. الضغط على الويدجت قبل تحديد المدينة يفتح إعداد المدينة مباشرة.
+
+#### التحديثات
+- **حول البرنامج ← التحقق من التحديثات** يقرأ آخر إصدار في هذا المستودع على GitHub، ويعرض ملاحظاته، ثم ينزّله ويثبّته.
+- تتحقق الشاشة الرئيسية أيضاً في الخلفية (مرة في الساعة على الأكثر)، وتنبّهك إلى الإصدار الجديد فور نشره.
+- التنزيل عبر HTTPS من GitHub فقط، ولا يُثبَّت الملف إلا إذا كان R1tec Launcher، وأحدث من الإصدار المثبت، و**موقّعاً بنفس المفتاح**. يطلب Android مرة واحدة السماح لـ R1tec بتثبيت التحديثات.
 
 #### الإعدادات
 - **عام:** الشاشة الرئيسية الافتراضية، ودليل الإعداد، والإعدادات السريعة، وشاشة التوقف، واستيراد وتصدير الإعدادات.
@@ -158,7 +173,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة.
 - **التطبيقات:** ترتيب المفضلة، وإعادة التسمية، وإخفاء التطبيقات أو استرجاعها، والحذف.
 - **الريموت وHome:** جعل R1tec الشاشة الرئيسية الافتراضية. (اختصار زر Home عبر إمكانية الوصول معطّل حتى لا يمنع Google Play Protect التثبيت.)
-- **الويدجات:** إظهار أو إخفاء ويدجت الطقس والصلاة والمباريات، ولكل منها إعداداته.
+- **الويدجات:** مفتاح تفعيل/تعطيل بضغطة واحدة لكل ويدجت على حدة (الطقس، الصلاة، المباريات)، ولكل منها إعداداته.
 - **شاشة التوقف** (Daydream) بالسماء المتحركة.
 - **النسخ الاحتياطي:** تصدير واستيراد كل إعدادات اللانشر والويدجات.
 
@@ -171,6 +186,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 | الإشعارات والخدمة الأمامية (تشغيل الوسائط) | تنبيهات المباريات وتشغيل الأذان |
 | المنبهات الدقيقة، والتشغيل عند الإقلاع، ومنع السكون | تذكير الصلاة في وقته حتى بعد إعادة التشغيل |
 | طلب حذف التطبيقات | حذف التطبيقات من داخل اللانشر |
+| طلب تثبيت التطبيقات | تثبيت التحديثات المنزّلة من GitHub (بعد تأكيدك لكل تثبيت) |
 
 ### مصادر البيانات
 - المباريات: [365Scores](https://www.365scores.com) (واجهة ويب غير رسمية، انظر [docs/365scores-api.md](docs/365scores-api.md))

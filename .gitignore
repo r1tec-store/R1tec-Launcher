@@ -10,3 +10,6 @@ keystore.properties
 
 # Local tooling
 .claude/
+
+# Decompiled working copy and build tools (local only)
+build/
