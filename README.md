@@ -24,6 +24,11 @@ Version number, changes and checksum: [latest release](https://github.com/r1tec-
 
 R1tec Launcher replaces the default Android TV home screen with a clean, remote-friendly interface. Everything you need is on one screen: the time and the Hijri and Gregorian dates, prayer times, the weather, today's matches for your teams, and your apps.
 
+### <img src="docs/images/downloader.png" width="40" align="center"> Downloader code / كود داونلودر: **6185367**
+
+In the *Downloader* app on your TV, type **6185367** to install the latest R1tec Launcher.
+في تطبيق *Downloader* على التلفاز، اكتب الكود **6185367** لتثبيت آخر إصدار من R1tec Launcher.
+
 ### Download and install
 
 1. Download [`R1tec-Launcher.apk`](https://github.com/r1tec-store/R1tec-Launcher/releases/latest/download/R1tec-Launcher.apk) (always the latest version).
