@@ -9,6 +9,11 @@
 
 ### [⬇ Download R1tec-Launcher.apk / تحميل](https://github.com/r1tec-store/R1tec-Launcher/releases/latest/download/R1tec-Launcher.apk)
 
+<img src="docs/images/downloader.png" width="48" align="center"> **Downloader code / كود داونلودر: 6185367**
+
+In the *Downloader* app on your TV, type **6185367** to install the latest version.<br>
+في تطبيق *Downloader* على التلفاز، اكتب الكود **6185367** لتثبيت آخر إصدار.
+
 Permanent link — always the latest version / رابط دائم — دائماً آخر إصدار:  
 `https://github.com/r1tec-store/R1tec-Launcher/releases/latest/download/R1tec-Launcher.apk`
 
@@ -23,11 +28,6 @@ Version number, changes and checksum: [latest release](https://github.com/r1tec-
 ## English
 
 R1tec Launcher replaces the default Android TV home screen with a clean, remote-friendly interface. Everything you need is on one screen: the time and the Hijri and Gregorian dates, prayer times, the weather, today's matches for your teams, and your apps.
-
-### <img src="docs/images/downloader.png" width="40" align="center"> Downloader code / كود داونلودر: **6185367**
-
-In the *Downloader* app on your TV, type **6185367** to install the latest R1tec Launcher.
-في تطبيق *Downloader* على التلفاز، اكتب الكود **6185367** لتثبيت آخر إصدار من R1tec Launcher.
 
 ### Download and install
 
@@ -114,7 +114,7 @@ In the *Downloader* app on your TV, type **6185367** to install the latest R1tec
 | Request install packages | Install updates downloaded from GitHub (you confirm each install) |
 
 ### Data sources
-- Matches: [365Scores](https://www.365scores.com) (unofficial web API, see [docs/365scores-api.md](docs/365scores-api.md))
+- Matches: [365Scores](https://www.365scores.com)
 - Weather: [Open-Meteo](https://open-meteo.com)
 - Prayer calendar: [Aladhan](https://aladhan.com) and on-device calculation
 - Wallpapers: Unsplash (NEOM, Hala AlGhanim)
@@ -194,7 +194,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 | طلب تثبيت التطبيقات | تثبيت التحديثات المنزّلة من GitHub (بعد تأكيدك لكل تثبيت) |
 
 ### مصادر البيانات
-- المباريات: [365Scores](https://www.365scores.com) (واجهة ويب غير رسمية، انظر [docs/365scores-api.md](docs/365scores-api.md))
+- المباريات: [365Scores](https://www.365scores.com)
 - الطقس: [Open-Meteo](https://open-meteo.com)
 - أوقات الصلاة: [Aladhan](https://aladhan.com) والحساب على الجهاز
 - الخلفيات: Unsplash (NEOM، هلا الغانم)
