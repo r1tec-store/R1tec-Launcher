@@ -120,7 +120,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - Weather: [Open-Meteo](https://open-meteo.com)
 - Prayer calendar: [Aladhan](https://aladhan.com) and on-device calculation
 - Wallpapers: Unsplash (NEOM, Hala AlGhanim)
-- Internet time zone: [ipwho.is](https://ipwho.is), [ipapi.co](https://ipapi.co) or [WorldTimeAPI](https://worldtimeapi.org)
+- Internet time zone: [time.now](https://time.now) (current offset), with [ipwho.is](https://ipwho.is) or [ipapi.co](https://ipapi.co) as fallback
 
 R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 
@@ -203,7 +203,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - الطقس: [Open-Meteo](https://open-meteo.com)
 - أوقات الصلاة: [Aladhan](https://aladhan.com) والحساب على الجهاز
 - الخلفيات: Unsplash (NEOM، هلا الغانم)
-- المنطقة الزمنية عبر الإنترنت: [ipwho.is](https://ipwho.is) أو [ipapi.co](https://ipapi.co) أو [WorldTimeAPI](https://worldtimeapi.org)
+- المنطقة الزمنية عبر الإنترنت: [time.now](https://time.now) (الفارق الحالي عن UTC)، مع [ipwho.is](https://ipwho.is) أو [ipapi.co](https://ipapi.co) كبديل
 
 لا يرتبط R1tec Launcher بأي من 365Scores أو Open-Meteo أو Aladhan.
 
