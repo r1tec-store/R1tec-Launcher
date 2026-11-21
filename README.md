@@ -53,6 +53,8 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 
 #### Today's matches widget
 - Live list of today's football matches from **365Scores**: score, minute, half, round and competition.
+- Keeps refreshing in the background while another app is open, and updates the moment you return home (no waiting).
+- **Finished matches stay** in today's strip, after the live and upcoming games.
 - Follow **teams**, from clubs in 40+ leagues to **all national teams** (216 teams, including Morocco, Algeria, Saudi Arabia, Egypt, France and Brazil).
 - Follow **competitions**: Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Champions League, Botola Pro, AFCON, World Cup, qualifiers and friendlies.
 - Filter by *selected teams only* and/or *selected competitions only*. Out of the box it ships with 67 popular teams selected and the "selected teams only" filter on.
@@ -87,7 +89,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 #### Settings
 - **General:** default Home screen, home setup guide, quick settings, screensaver, import/export of settings.
 - **Appearance:** wallpaper (animated sky or photos), container opacity, corner radius, reset.
-- **Language and time:** Arabic or English, 12/24-hour clock.
+- **Language and time:** Arabic or English, 12/24-hour clock, and **Internet time** (on by default): the clock, date, prayer times and match times follow the time zone of your internet connection instead of the TV's clock setting. Turn it off to use the device clock.
 - **Applications:** organize favorites, rename, hide or restore apps, uninstall.
 - **Remote and Home:** set R1tec as the default Home app. (The accessibility-based Home-button shortcut is turned off so Google Play Protect no longer blocks installation.)
 - **Widgets:** one-click On/Off switch for each widget (weather, prayer, matches) independently, plus each widget's own settings.
@@ -118,6 +120,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - Weather: [Open-Meteo](https://open-meteo.com)
 - Prayer calendar: [Aladhan](https://aladhan.com) and on-device calculation
 - Wallpapers: Unsplash (NEOM, Hala AlGhanim)
+- Internet time zone: [ipwho.is](https://ipwho.is), [ipapi.co](https://ipapi.co) or [WorldTimeAPI](https://worldtimeapi.org)
 
 R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 
@@ -151,6 +154,8 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 
 #### ويدجت مباريات اليوم
 - قائمة حيّة بمباريات اليوم من **365Scores**: النتيجة، والدقيقة، والشوط، والجولة، والبطولة.
+- تستمر في التحديث في الخلفية أثناء فتح تطبيق آخر، وتتحدّث فور العودة إلى الرئيسية دون انتظار.
+- **المباريات المنتهية تبقى** في شريط مباريات اليوم، بعد المباريات المباشرة والقادمة.
 - متابعة **الفرق**: أندية من أكثر من 40 دوري، و**كل المنتخبات الوطنية** (216 منتخباً، منها المغرب والجزائر والسعودية ومصر وفرنسا والبرازيل).
 - متابعة **البطولات**: الدوري الإنجليزي والإسباني والإيطالي والألماني والفرنسي، ودوري الأبطال، والبطولة الاحترافية المغربية، وكأس أمم إفريقيا، وكأس العالم، والتصفيات، والمباريات الودية.
 - فلترة بـ*الفرق المحددة فقط* و/أو *البطولات المحددة فقط*. يأتي افتراضياً مع 67 فريقاً مختاراً، وفلتر "الفرق المحددة فقط" مفعّل.
@@ -175,7 +180,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 #### الإعدادات
 - **عام:** الشاشة الرئيسية الافتراضية، ودليل الإعداد، والإعدادات السريعة، وشاشة التوقف، واستيراد وتصدير الإعدادات.
 - **المظهر:** الخلفية (سماء متحركة أو صور)، وشفافية الحاويات، وانحناء الزوايا، وإعادة الضبط.
-- **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة.
+- **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة، و**وقت الإنترنت** (مفعّل افتراضياً): الساعة والتاريخ وأوقات الصلاة ومواعيد المباريات تتبع المنطقة الزمنية لاتصال الإنترنت بدلاً من إعداد ساعة التلفاز. عطّله لاستعمال ساعة الجهاز.
 - **التطبيقات:** ترتيب المفضلة، وإعادة التسمية، وإخفاء التطبيقات أو استرجاعها، والحذف.
 - **الريموت وHome:** جعل R1tec الشاشة الرئيسية الافتراضية. (اختصار زر Home عبر إمكانية الوصول معطّل حتى لا يمنع Google Play Protect التثبيت.)
 - **الويدجات:** مفتاح تفعيل/تعطيل بضغطة واحدة لكل ويدجت على حدة (الطقس، الصلاة، المباريات)، ولكل منها إعداداته.
@@ -198,6 +203,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - الطقس: [Open-Meteo](https://open-meteo.com)
 - أوقات الصلاة: [Aladhan](https://aladhan.com) والحساب على الجهاز
 - الخلفيات: Unsplash (NEOM، هلا الغانم)
+- المنطقة الزمنية عبر الإنترنت: [ipwho.is](https://ipwho.is) أو [ipapi.co](https://ipapi.co) أو [WorldTimeAPI](https://worldtimeapi.org)
 
 لا يرتبط R1tec Launcher بأي من 365Scores أو Open-Meteo أو Aladhan.
 
