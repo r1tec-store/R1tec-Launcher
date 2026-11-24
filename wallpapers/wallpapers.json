@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "backyard",
+      "name_ar": "غروب الحديقة",
+      "name_en": "Backyard sunset",
+      "video": "backyard.mp4",
+      "preview": "backyard-preview.mp4",
+      "thumb": "backyard.jpg",
+      "size": 3931215,
+      "seconds": 10
+    },
+    {
+      "id": "fire",
+      "name_ar": "نار",
+      "name_en": "Fire",
+      "video": "fire.mp4",
+      "preview": "fire-preview.mp4",
+      "thumb": "fire.jpg",
+      "size": 31861257,
+      "seconds": 45
+    },
+    {
+      "id": "frosty-plant",
+      "name_ar": "نبتة متجمدة",
+      "name_en": "Frosty plant",
+      "video": "frosty-plant.mp4",
+      "preview": "frosty-plant-preview.mp4",
+      "thumb": "frosty-plant.jpg",
+      "size": 4127287,
+      "seconds": 10
+    },
+    {
+      "id": "snow",
+      "name_ar": "ثلج",
+      "name_en": "Snow",
+      "video": "snow.mp4",
+      "preview": "snow-preview.mp4",
+      "thumb": "snow.jpg",
+      "size": 24015752,
+      "seconds": 30
+    }
+  ]
+}

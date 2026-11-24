@@ -42,7 +42,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 
 #### Home screen
 - Large clock with the weekday and both the **Hijri and Gregorian** dates.
-- **Animated living sky** (sun, moon, stars and drifting clouds that follow the time of day), or a choice of photo wallpapers, including your own image from USB or a file.
+- **Animated living sky** (sun, moon, stars and drifting clouds that follow the time of day), a daily wallpaper, or **live video wallpapers** (fire, snow, …) that you preview and download from inside the launcher. They are not bundled in the APK, so it stays small.
 - **Favorites row** for your most-used apps, plus a full **Applications** grid.
 - **Move apps between Favorites and Applications:** hold OK on an app → *Move app*, then **Up/Down** carries it between the two rows and the arrows place it; OK saves.
 - Focused apps get a **gold ring** and zoom in, in both rows.
@@ -87,14 +87,14 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - Downloads are HTTPS-only from GitHub, and the APK must be R1tec Launcher, newer than the installed version and **signed with the same key** before it is installed. Android asks once to allow R1tec to install updates.
 
 #### Settings
-- **General:** default Home screen, home setup guide, quick settings, screensaver, import/export of settings.
-- **Appearance:** wallpaper (animated sky or photos), container opacity, corner radius, reset.
+- **General:** default Home screen, home setup guide, quick settings, screensaver, Backup / Restore of settings.
+- **Appearance:** wallpaper (dynamic sky, daily collection, or downloadable live wallpapers with preview, Download and Apply), container opacity, corner radius, reset.
 - **Language and time:** Arabic or English, 12/24-hour clock, and **Internet time** (on by default): the clock, date, prayer times and match times follow the time zone of your internet connection instead of the TV's clock setting. Turn it off to use the device clock.
 - **Applications:** organize favorites, rename, hide or restore apps, uninstall.
 - **Remote and Home:** set R1tec as the default Home app. (The accessibility-based Home-button shortcut is turned off so Google Play Protect no longer blocks installation.)
 - **Widgets:** one-click On/Off switch for each widget (weather, prayer, matches) independently, plus each widget's own settings.
 - **Screensaver** (Android "Daydream") with the animated sky.
-- **Backup:** export and import all launcher and widget settings.
+- **Backup / Restore:** back up and restore all launcher and widget settings.
 
 | Quick menu | General | Widgets |
 |---|---|---|
@@ -145,7 +145,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 
 #### الشاشة الرئيسية
 - ساعة كبيرة مع اليوم والتاريخ **الهجري والميلادي**.
-- **سماء حيّة متحركة** (شمس وقمر ونجوم وسحب تتغير حسب الوقت)، أو صور خلفية جاهزة، أو صورتك الخاصة من USB أو من ملف.
+- **سماء حيّة متحركة** (شمس وقمر ونجوم وسحب تتغير حسب الوقت)، أو خلفية تتبدّل يومياً، أو **خلفيات فيديو متحركة** (نار، ثلج، …) تعاينها وتحمّلها من داخل اللانشر، وهي غير مدمجة في التطبيق فيبقى حجمه صغيراً.
 - **صف المفضلة** لأكثر التطبيقات استعمالاً، وشبكة **كل التطبيقات**.
 - **نقل التطبيقات بين المفضلة والتطبيقات:** اضغط مطولاً على OK فوق تطبيق ← *نقل التطبيق*، ثم **أعلى/أسفل** للانتقال بين الصفين والأسهم لتحديد المكان، وOK للحفظ.
 - التطبيق المحدد يظهر بـ**إطار ذهبي** ويتكبّر، في الصفين معاً.
@@ -178,14 +178,14 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - التنزيل عبر HTTPS من GitHub فقط، ولا يُثبَّت الملف إلا إذا كان R1tec Launcher، وأحدث من الإصدار المثبت، و**موقّعاً بنفس المفتاح**. يطلب Android مرة واحدة السماح لـ R1tec بتثبيت التحديثات.
 
 #### الإعدادات
-- **عام:** الشاشة الرئيسية الافتراضية، ودليل الإعداد، والإعدادات السريعة، وشاشة التوقف، واستيراد وتصدير الإعدادات.
-- **المظهر:** الخلفية (سماء متحركة أو صور)، وشفافية الحاويات، وانحناء الزوايا، وإعادة الضبط.
+- **عام:** الشاشة الرئيسية الافتراضية، ودليل الإعداد، والإعدادات السريعة، وشاشة التوقف، والنسخ الاحتياطي / الاستعادة.
+- **المظهر:** الخلفية (السماء الديناميكية، أو التبديل اليومي، أو خلفيات متحركة قابلة للتحميل مع معاينة وزر تحميل وزر تطبيق)، وشفافية الحاويات، وانحناء الزوايا، وإعادة الضبط.
 - **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة، و**وقت الإنترنت** (مفعّل افتراضياً): الساعة والتاريخ وأوقات الصلاة ومواعيد المباريات تتبع المنطقة الزمنية لاتصال الإنترنت بدلاً من إعداد ساعة التلفاز. عطّله لاستعمال ساعة الجهاز.
 - **التطبيقات:** ترتيب المفضلة، وإعادة التسمية، وإخفاء التطبيقات أو استرجاعها، والحذف.
 - **الريموت وHome:** جعل R1tec الشاشة الرئيسية الافتراضية. (اختصار زر Home عبر إمكانية الوصول معطّل حتى لا يمنع Google Play Protect التثبيت.)
 - **الويدجات:** مفتاح تفعيل/تعطيل بضغطة واحدة لكل ويدجت على حدة (الطقس، الصلاة، المباريات)، ولكل منها إعداداته.
 - **شاشة التوقف** (Daydream) بالسماء المتحركة.
-- **النسخ الاحتياطي:** تصدير واستيراد كل إعدادات اللانشر والويدجات.
+- **النسخ الاحتياطي / الاستعادة:** حفظ واستعادة كل إعدادات اللانشر والويدجات.
 
 ### الأذونات
 
