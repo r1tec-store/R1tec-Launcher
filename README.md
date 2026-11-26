@@ -91,7 +91,7 @@ R1tec Launcher replaces the default Android TV home screen with a clean, remote-
 - **Appearance:** wallpaper (dynamic sky, daily collection, or downloadable live wallpapers with preview, Download and Apply), container opacity, corner radius, reset.
 - **Language and time:** Arabic or English, 12/24-hour clock, and **Internet time** (on by default): the clock, date, prayer times and match times follow the time zone of your internet connection instead of the TV's clock setting. Turn it off to use the device clock.
 - **Applications:** organize favorites, rename, hide or restore apps, uninstall.
-- **Remote and Home:** set R1tec as the default Home app. (The accessibility-based Home-button shortcut is turned off so Google Play Protect no longer blocks installation.)
+- **Remote and Home:** **Set as default (once)** makes R1tec the default Home app with no PC and no launcher-manager app (it uses the TV's own debugging once; turn on USB debugging in Developer options first). It stays the default after a reboot and on the Home button, and the TV's launcher comes back by itself if you uninstall R1tec. Optional **Home redirect** (Accessibility, off by default) for Google TV devices where Home always opens the system launcher.
 - **Widgets:** one-click On/Off switch for each widget (weather, prayer, matches) independently, plus each widget's own settings.
 - **Screensaver** (Android "Daydream") with the animated sky.
 - **Backup / Restore:** back up and restore all launcher and widget settings.
@@ -182,7 +182,7 @@ R1tec Launcher is not affiliated with 365Scores, Open-Meteo or Aladhan.
 - **المظهر:** الخلفية (السماء الديناميكية، أو التبديل اليومي، أو خلفيات متحركة قابلة للتحميل مع معاينة وزر تحميل وزر تطبيق)، وشفافية الحاويات، وانحناء الزوايا، وإعادة الضبط.
 - **اللغة والتوقيت:** العربية أو الإنجليزية، ونظام 12 أو 24 ساعة، و**وقت الإنترنت** (مفعّل افتراضياً): الساعة والتاريخ وأوقات الصلاة ومواعيد المباريات تتبع المنطقة الزمنية لاتصال الإنترنت بدلاً من إعداد ساعة التلفاز. عطّله لاستعمال ساعة الجهاز.
 - **التطبيقات:** ترتيب المفضلة، وإعادة التسمية، وإخفاء التطبيقات أو استرجاعها، والحذف.
-- **الريموت وHome:** جعل R1tec الشاشة الرئيسية الافتراضية. (اختصار زر Home عبر إمكانية الوصول معطّل حتى لا يمنع Google Play Protect التثبيت.)
+- **الريموت وHome:** **تعيين كلانشر افتراضي (مرة واحدة)** يجعل R1tec الشاشة الرئيسية الافتراضية دون كمبيوتر ودون تطبيق Launcher Manager (يستخدم تصحيح الأخطاء في التلفاز مرة واحدة؛ فعّل «تصحيح أخطاء USB» من خيارات المطوّر أولاً). يبقى افتراضياً بعد إعادة التشغيل وعند زر Home، ويعود لانشر التلفاز تلقائياً عند حذف R1tec. و**تحويل زر Home** الاختياري (إمكانية الوصول، غير مفعّل افتراضياً) لأجهزة Google TV التي يفتح فيها زر Home لانشر النظام دائماً.
 - **الويدجات:** مفتاح تفعيل/تعطيل بضغطة واحدة لكل ويدجت على حدة (الطقس، الصلاة، المباريات)، ولكل منها إعداداته.
 - **شاشة التوقف** (Daydream) بالسماء المتحركة.
 - **النسخ الاحتياطي / الاستعادة:** حفظ واستعادة كل إعدادات اللانشر والويدجات.
